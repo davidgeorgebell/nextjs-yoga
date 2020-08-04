@@ -6,7 +6,7 @@ import PriceCards from '../components/PriceCards';
 
 export default function Home() {
   return (
-    <div className='bg-gray-100 max-w-cover'>
+    <div className=' max-w-cover'>
       <div>
         <header>
           <Nav />
