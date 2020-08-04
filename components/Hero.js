@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <div className='py-20'>
-      <div>
-        <h2 className=''>Start your Daily Practice</h2>
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 max-h-xl py-10'>
+      <div className='self-center'>
+        <h2 className='text-3xl md:text-5xl lg:text-6xl font-serif font-hairline text-center md:text-left'>
+          Start your Daily Practice
+        </h2>
       </div>
-      <div>
+      <div className='self-center'>
         <svg
           id='e1212692-d39e-496f-931d-018692dccc58'
           data-name='Layer 1'
           xmlns='http://www.w3.org/2000/svg'
-          width='745.33776'
-          height='812'
           viewBox='0 0 745.33776 812'>
           <title>yoga</title>
           <path

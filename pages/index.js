@@ -6,12 +6,18 @@ import PriceCards from '../components/PriceCards';
 
 export default function Home() {
   return (
-    <div>
-      <Nav />
-      <Hero />
-      <HookFeature />
-      <Testimonial />
-      <PriceCards />
+    <div className='bg-gray-100 max-w-cover'>
+      <div className='container mx-auto px-4 max-w-screen-lg'>
+        <header>
+          <Nav />
+        </header>
+        <main>
+          <Hero />
+          <HookFeature />
+          <Testimonial />
+          <PriceCards />
+        </main>
+      </div>
     </div>
   );
 }

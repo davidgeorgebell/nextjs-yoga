@@ -17,8 +17,6 @@ export default function HookFeature() {
           id='6814d84d-9ca9-4e87-a09b-cc788a44d462'
           data-name='Layer 1'
           xmlns='http://www.w3.org/2000/svg'
-          width='985'
-          height='692.97'
           viewBox='0 0 985 692.97'>
           <defs>
             <linearGradient
