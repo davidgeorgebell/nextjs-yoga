@@ -12,7 +12,7 @@ export default function Nav() {
       <ul className='flex justify-between items-center p-8'>
         <li>
           <Link href='/'>
-            <a className='no-underline'>Home</a>
+            <a className='no-underline'>Movement</a>
           </Link>
         </li>
         <ul className='flex justify-between items-center space-x-4'>

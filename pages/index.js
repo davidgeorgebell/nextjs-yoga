@@ -1,12 +1,17 @@
 import Nav from '../components/nav';
+import Hero from '../components/Hero';
+import HookFeature from '../components/HookFeature';
+import Testimonial from '../components/Testimonial';
+import PriceCards from '../components/PriceCards';
 
 export default function Home() {
   return (
     <div>
       <Nav />
-      <div className='py-20'>
-        <h1 className=''>Movement</h1>
-      </div>
+      <Hero />
+      <HookFeature />
+      <Testimonial />
+      <PriceCards />
     </div>
   );
 }
