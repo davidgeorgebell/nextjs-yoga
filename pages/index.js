@@ -5,6 +5,7 @@ import Testimonial from '../components/Testimonial';
 import PriceCards from '../components/PriceCards';
 
 import Benefits from '../components/Benefits.js';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Testimonial />
           <PriceCards />
         </main>
+        <Footer />
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ export default function PriceCards() {
     <div className='bg-indigo-700 py-40'>
       <div className='container mx-auto px-8  max-w-screen-lg'>
         <div className='text-center'>
-          <h2 className='text-5xl font-bold text-white'>Join Movement Yoga</h2>
+          <h2 className=' text-3xl lg:text-5xl font-bold text-white'>
+            Join Movement Yoga
+          </h2>
           <p className='text-blue-200 text-2xl md:text-3xl font-semibold'>
             Choose a membership that works for you
           </p>
@@ -20,7 +22,7 @@ export default function PriceCards() {
               <span className='text-gray-500 text-2xl pr-2'>$</span>2400
               <span className='text-gray-500 text-2xl pl-2'>/m</span>
             </div>
-            <ul className='px-10 pt-10 pb-16'>
+            <ul className='px-4 md:px-10 pt-10 pb-16'>
               <li className='flex pb-4'>
                 <TickSVG />
                 Unlimited Yoga Classes
@@ -51,7 +53,7 @@ export default function PriceCards() {
               <span className='text-gray-500 text-2xl pr-2'>$</span>1900
               <span className='text-gray-500 text-2xl pl-2'>/m</span>
             </div>
-            <ul className='px-10 flex flex-col justify-between pt-10 pb-16 '>
+            <ul className='px-4 md:px-10 flex flex-col justify-between pt-10 pb-16 '>
               <li className='flex pb-4'>
                 <TickSVG />
                 2x Yoga Class a Week
