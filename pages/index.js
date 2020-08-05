@@ -4,6 +4,8 @@ import HookFeature from '../components/HookFeature';
 import Testimonial from '../components/Testimonial';
 import PriceCards from '../components/PriceCards';
 
+import Benefits from '../components/Benefits.js';
+
 export default function Home() {
   return (
     <div className=' max-w-cover'>
@@ -13,6 +15,7 @@ export default function Home() {
         </header>
         <main>
           <Hero />
+          <Benefits />
           <HookFeature />
           <Testimonial />
           <PriceCards />

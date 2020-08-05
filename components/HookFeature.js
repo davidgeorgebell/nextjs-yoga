@@ -3,7 +3,7 @@ import Hero from './Hero';
 
 export default function HookFeature() {
   return (
-    <div className='flex flex-col-reverse md:flex-row max-h-xl py-24 container mx-auto px-4 max-w-screen-lg'>
+    <div className='flex flex-col-reverse md:flex-row max-h-xl py-48 container mx-auto px-4 max-w-screen-lg'>
       <div>
         <img
           className='rounded shadow-xl'
@@ -13,7 +13,7 @@ export default function HookFeature() {
       </div>
       <div className='self-center px-6 py-10'>
         <span className='text-indigo-500'>Get Started</span>
-        <h3 className='text-3xl font-bold my-5 text-indigo-800'>
+        <h3 className='text-3xl font-bold my-5 text-indigo-900'>
           Yoga is more than a move. It's a movement!
         </h3>
         <p className='text-gray-700'>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 max-h-xl py-10 container mx-auto px-4 max-w-screen-lg'>
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 max-h-xl pt-10 mb-40 container mx-auto px-4 max-w-screen-lg'>
       <div className='self-center'>
         <h2 className='text-3xl md:text-5xl lg:text-6xl font-serif font-hairline text-center md:text-left'>
           Start your Daily Practice

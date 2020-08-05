@@ -3,8 +3,8 @@ import TickSVG from './TickSVG';
 
 export default function PriceCards() {
   return (
-    <div className='bg-indigo-700'>
-      <div className='container mx-auto px-8 py-16 max-w-screen-lg'>
+    <div className='bg-indigo-700 py-40'>
+      <div className='container mx-auto px-8  max-w-screen-lg'>
         <div className='text-center'>
           <h2 className='text-5xl font-bold text-white'>Join Movement Yoga</h2>
           <p className='text-blue-200 text-2xl md:text-3xl font-semibold'>
