@@ -5,3 +5,5 @@
 - Nextjs
 - TailwindCSS
 - Framer Motion (Animations)
+
+<img src='/public/scr1.png' />
